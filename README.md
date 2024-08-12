@@ -1,3 +1,4 @@
 # Cropdation
-A crop recommendation system that was created using publicly available dataset that can be found on [Kaggle](https://www.kaggle.com/code/prasadchaskar/crop-prediction-99-accuracy/data?select=Crop_recommendation.csv).     
+A crop recommendation system was created using publicly available dataset that can be found on [Kaggle](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset/). 
+The dataset is a multiclass dataset with 22 distinct classes.
     
