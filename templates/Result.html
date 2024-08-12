@@ -1,0 +1,43 @@
+{% extends "base.html" %} 
+
+{% block body %}
+<body class="display-page">
+    <div>
+        <h1 style= "margin: 5vh;">Best crop to grow in this condition is {{cropName}} </h1>
+        <table>
+            <tr>
+                <th>N_Level (kg/hectre)</th>
+                <th>P_Level (kg/hectre)</th>
+                <th>K_Level (kg/hectre)</th>
+                <th>Humidity (%)</th>
+                <th>Temperature (deg celsius)</th>
+                <th>Rainfall (mm)</th>
+                <th>PH</th>
+            </tr>
+            <tr>
+                {%for i in values:%}
+                <td>{{i}}</td>
+                {%endfor%}
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Nitrogen Level</th>
+                <th>Phosphorous Level</th>
+                <th>Potassium Level</th>
+                <th>Humidity </th>
+                <th>Temperature</th>
+                <th>Rainfall </th>
+                <th>PH Level</th>
+            </tr>
+            <tr>
+                {%for i in cont:%}
+                <td>{{i}}</td>
+                {%endfor%}
+            </tr>
+        </table>
+        
+    </div>
+</body>
+{% endblock %}
+</table>

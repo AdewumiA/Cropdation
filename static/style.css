@@ -1,0 +1,110 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+ 
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+        background-image:url("../static/Background_image.png");
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        margin: 0; 
+        text-align: center;
+        overflow: hidden;
+}
+
+
+.display-page {
+    background-color: rgb(197, 250, 192);
+    background-image: none; 
+    color: black; 
+}
+
+
+h3 {
+    color: antiquewhite;
+    word-spacing: 10px;
+    font-size:1.9em;
+}
+
+
+h1 {
+    word-spacing: 10px;
+    font-size:3em;
+    margin: 0.4em;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    justify-content: space-between; /* Distribute columns evenly */
+    margin: 30px;
+    width:fit-content;
+    padding: 50px;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.form label{
+    padding:1.6em;
+} 
+
+
+.form input {
+    width: 50%;
+    border: 10px;
+    height:1.7em;
+
+}
+
+.box {
+    margin:1em;
+    width: fit-content;
+    border-radius: 7px;   
+}
+
+input.box {
+    padding-left: 10px; 
+}
+
+input[type="submit"] {
+    background: rgb(24, 189, 24);
+    border: solid 1px rgb(15, 10, 1);
+    color: white;
+    transition: all 1s;
+    width: 100px; /* Set a specific width */
+    padding: 0.8rem; /* Maintain padding */
+    margin: 12px auto; /* Center horizontally */
+    height:2.2em;
+}
+
+
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgb(243, 104, 11), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:active {
+background:rgb(109, 241, 56);
+}
+
+table {
+display: flex;
+border-collapse: collapse;
+margin: 8vh;
+justify-content: center;
+align-items: center;
+}
+
+td, th {
+border: 2px solid rgb(0, 0, 0);
+padding: 10px;
+width: auto;
+font-size: 2em;
+}

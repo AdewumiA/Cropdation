@@ -1,0 +1,29 @@
+{% extends "base.html" %}{%block content%}Details collection{% endblock%} {%block body%}
+
+<div class="form">
+    <form action="/predict/" method="post">
+ 
+        <h1 style="color: rgba(30, 255, 0, 0.842);">
+            <center>Enter the values below</center>
+        </h1>
+        <h3>Nitrogen</h3>
+        </p><input type="number" step="any" min="1" max="200" name="Nitrogen" placeholder="Nitrogen in soil (kg)" class="box" required />
+        <br />
+        <h3>Phosphorous</h3>
+        <input type="number" step="any" min="1" max="200" name="Phosphorous" placeholder="Phosphorous in soil (kg)" class="box" required /><br />
+        <h3>Potassium</h3>
+        <input type="number" step="any" min="1" max="200" name="Potassium" placeholder="Potassium in soil (kg)" class="box" required /><br />
+        <h3>Temperature</h3>
+        <input type="number" step="any" min="1" max="65" name="Temperature" placeholder="Temperature in degree" class="box" required /><br />
+        <h3>Humidity</h3>
+        <input type="number" step="any" min="1" max="100" name="Humidity" placeholder="Humidity in percentage" class="box" required /><br />
+        <h3>PH</h3>
+        <input type="number" step="any" min="1" max="14" name="PH" placeholder="PH from 1-14" class="box" required /><br />
+
+        <h3>Rainfall</h3>
+        <input type="number" step="any" min="1" max="100" name="Rainfall" placeholder="Rainfall in mm" class="box" required /><br />
+
+        <input type="submit" class = "button" value=" Submit " />
+    </form>
+</div>
+{% endblock%}
